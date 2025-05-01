@@ -18,7 +18,7 @@ body {
 .tarjeta {
   width: 300px;
   height: 400px;
-  perspective: 1000px; /* Para el efecto de voltear */
+  perspective: 1000px;  /*Para el efecto de voltear */
   margin: 20px;
 }
 /* Las caras de la tarjeta */
@@ -107,18 +107,6 @@ volcada */
 .posterior button:hover {
   background-color: #0056b3;
 }
-/* Voltear la tarjeta cuando se hace clic en
-        Detalles */
-
-/* Voltea la cara frontal */
-/* .tarjeta:hover .frontal {
-  transform: rotateY(180deg); 
-} */
-
-/* Muestra la cara posterior */
-/* .tarjeta:hover .posterior {
-  transform: rotateY(0deg); 
-} */
 
 .tarjeta.volteada .frontal {
   transform: rotateY(180deg);
